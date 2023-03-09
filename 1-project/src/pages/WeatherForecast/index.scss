@@ -1,0 +1,10 @@
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  background: #3399cc;
+  border: 25px solid #2b81ac;
+}

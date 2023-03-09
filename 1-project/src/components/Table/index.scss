@@ -1,0 +1,79 @@
+.table {
+  width: 100%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-areas:
+    "item1 item1 item2 item3"
+    "item4 item5 item6 item7"
+    "item8 item9 item9 item10"
+    "item11 item11 item11 item11";
+  gap: 2px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 26px 0;
+  font-size: 22px;
+
+  .weather-value {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.item1 {
+  grid-area: item1;
+  background-color: #71b8db;
+}
+.item2 {
+  grid-area: item2;
+  background-color: #33cccc;
+}
+.item3 {
+  grid-area: item3;
+  background-color: #996699;
+}
+
+.item4 {
+  grid-area: item4;
+  background-color: #c24747;
+}
+
+.item5 {
+  grid-area: item5;
+  background-color: #e2674a;
+}
+
+.item6 {
+  grid-area: item6;
+  background-color: #ffcc66;
+}
+
+.item7 {
+  grid-area: item7;
+  background-color: #99cc99;
+}
+
+.item8 {
+  grid-area: item8;
+  background-color: #669999;
+}
+
+.item9 {
+  grid-area: item9;
+  background-color: #cc6699;
+}
+
+.item10 {
+  grid-area: item10;
+  background-color: #339966;
+}
+
+.item11 {
+  grid-area: item11;
+  background-color: #666699;
+}
